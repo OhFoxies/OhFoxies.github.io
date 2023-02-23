@@ -8,26 +8,27 @@
     <title>Stajnia Incendio</title>
 </head>
 <body>
-<!--test -->
-<!-- Navigation -->
-
 <nav>
-    <div class="nav-navbar">
+    <div class="navigation-container">
         <div class="logo">
             <div class="logo-line"></div>
-            <a href="index.html" style="text-decoration: none; color: black;"><h1 class="logotext">STAJNIA INCENDIO</h1>
-            </a>
+            <a href="index.html" style="text-decoration: none"><h1 class="logotext">STAJNIA INCENDIO</h1></a>
             <div class="logo-line"></div>
         </div>
-        <div class="nav-navbar-buttons">
-            <a href="pricelist.html" class="nav-navbar-buttons-links">Cennik</a>
-            <a href="education.html" class="nav-navbar-buttons-links">Posty edukacyjne</a>
-            <a href="contact.html" class="nav-navbar-buttons-links">Kontakt</a>
-            <a href="galery.html" class="nav-navbar-buttons-links">Galeria</a>
+        <ul class="nav-links">
+            <a href="pricelist.html" class="nav-link">Cennik</a>
+            <a href="education.html" class="nav-link">Posty edukacyjne</a>
+            <a href="contact.html" class="nav-link">Kontakt</a>
+            <a href="galery.html" class="nav-link">Galeria</a>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
     </div>
 </nav>
-
+<script  src="scripts/menu.js"></script>
 <div class="banner">
     <img src="images/baner.jpg" alt="Stable banner" class="banner-img1">
     <img src="images/baner.jpg" alt="Stable banner" class="banner-img2">
@@ -37,8 +38,6 @@
     </div>
 
 </div>
-
-<div class="space"></div>
 <main>
     <div class="news-section">
         <div class="news-container">
@@ -124,8 +123,6 @@
             </div>
         </div>
     </div>
-    <!--    nasze zalety-->
-
     <div class="benefits">
         <div class="section-dots-tittle-container">
             <h1 class="section-tittle">Poznaj nasze zalety</h1>
@@ -189,24 +186,11 @@
             <h1> Jesteśmy otwraci od wtorku do poniedziałku! </h1>
             <h1>Zapraszamy!</h1>
         </div>
-        <div class="mapouter">
-            <div class="gmap_canvas">
-                <iframe width="600" height="500" id="gmap_canvas"
-                        src="https://maps.google.com/maps?q=Stajnia%20Incendio&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                <style>.mapouter {
-                    position: relative;
-                    text-align: center;
-                }</style>
-                <style>.gmap_canvas {
-                    overflow: hidden;
-                    background: none !important;
-                }</style>
-            </div>
-        </div>
+        <iframe class="dekstopmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2542.3183462935012!2d18.7830401!3d50.4165401!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47112b08e5a407d5%3A0x909d531df71e557c!2sStajnia%20Incendio!5e0!3m2!1spl!2spl!4v1677173049628!5m2!1spl!2spl" width="50%" height="700" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <iframe class="mobilemap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2542.3183462935012!2d18.7830401!3d50.4165401!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47112b08e5a407d5%3A0x909d531df71e557c!2sStajnia%20Incendio!5e0!3m2!1spl!2spl!4v1677173049628!5m2!1spl!2spl" width="90%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <iframe class="middlemap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2542.3183462935012!2d18.7830401!3d50.4165401!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47112b08e5a407d5%3A0x909d531df71e557c!2sStajnia%20Incendio!5e0!3m2!1spl!2spl!4v1677173049628!5m2!1spl!2spl" width="60%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </div>
 </main>
-
 <footer>
     <div class="footer-text">
         <h1 style="font-size: 1.5em; font-weight: normal"> Zapraszamy na naszego facebooka</h1>
