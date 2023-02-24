@@ -1,0 +1,40 @@
+<div class="photo-container">
+    <picture class="photo-in-gallery">
+        <img class="photo-gallery" loading="lazy" src="images/nasze_konie/106582165_2403194306645354_2590849868995805802_n.jpg" alt="106582165_2403194306645354_2590849868995805802_n.jpg" onclick="preview(this.src)"/>
+    </picture>
+</div>
+<div class="photo-container">
+    <picture class="photo-in-gallery">
+        <img class="photo-gallery" loading="lazy" src="images/nasze_konie/106650795_2403194259978692_243716561283760641_n.jpg" alt="106650795_2403194259978692_243716561283760641_n.jpg" onclick="preview(this.src)"/>
+    </picture>
+</div>
+<div class="photo-container">
+    <picture class="photo-in-gallery">
+        <img class="photo-gallery" loading="lazy" src="images/nasze_konie/106980342_2403194279978690_1009700634949498288_n.jpg" alt="106980342_2403194279978690_1009700634949498288_n.jpg" onclick="preview(this.src)"/>
+    </picture>
+</div>
+<div class="photo-container">
+    <picture class="photo-in-gallery">
+        <img class="photo-gallery" loading="lazy" src="images/nasze_konie/108285078_2413195815645203_3512978267350706012_n.jpg" alt="108285078_2413195815645203_3512978267350706012_n.jpg" onclick="preview(this.src)"/>
+    </picture>
+</div>
+<div class="photo-container">
+    <picture class="photo-in-gallery">
+        <img class="photo-gallery" loading="lazy" src="images/nasze_konie/13327421_1576816899283103_3479125338839211822_n.jpg" alt="13327421_1576816899283103_3479125338839211822_n.jpg" onclick="preview(this.src)"/>
+    </picture>
+</div>
+<div class="photo-container">
+    <picture class="photo-in-gallery">
+        <img class="photo-gallery" loading="lazy" src="images/nasze_konie/13330946_1576091282688998_4927874312554028860_n.jpg" alt="13330946_1576091282688998_4927874312554028860_n.jpg" onclick="preview(this.src)"/>
+    </picture>
+</div>
+<div class="photo-container">
+    <picture class="photo-in-gallery">
+        <img class="photo-gallery" loading="lazy" src="images/nasze_konie/13330973_1576091219355671_2474074920907822849_n.jpg" alt="13330973_1576091219355671_2474074920907822849_n.jpg" onclick="preview(this.src)"/>
+    </picture>
+</div>
+<div class="photo-container">
+    <picture class="photo-in-gallery">
+        <img class="photo-gallery" loading="lazy" src="images/nasze_konie/13335791_1576091259355667_5626372956042921141_n.jpg" alt="13335791_1576091259355667_5626372956042921141_n.jpg" onclick="preview(this.src)"/>
+    </picture>
+</div>

@@ -1,0 +1,35 @@
+<div class="photo-container">
+    <picture class="photo-in-gallery">
+        <img class="photo-gallery" loading="lazy" src="images/nasze_konie/13406919_1576817269283066_2447678987251444810_n.jpg" alt="13406919_1576817269283066_2447678987251444810_n.jpg" onclick="preview(this.src)"/>
+    </picture>
+</div>
+<div class="photo-container">
+    <picture class="photo-in-gallery">
+        <img class="photo-gallery" loading="lazy" src="images/nasze_konie/13407026_1576817062616420_1956672062321669171_n.jpg" alt="13407026_1576817062616420_1956672062321669171_n.jpg" onclick="preview(this.src)"/>
+    </picture>
+</div>
+<div class="photo-container">
+    <picture class="photo-in-gallery">
+        <img class="photo-gallery" loading="lazy" src="images/nasze_konie/13407082_1576821682615958_819966056057967913_n.jpg" alt="13407082_1576821682615958_819966056057967913_n.jpg" onclick="preview(this.src)"/>
+    </picture>
+</div>
+<div class="photo-container">
+    <picture class="photo-in-gallery">
+        <img class="photo-gallery" loading="lazy" src="images/nasze_konie/13413593_1576091216022338_2709337903376738878_n.jpg" alt="13413593_1576091216022338_2709337903376738878_n.jpg" onclick="preview(this.src)"/>
+    </picture>
+</div>
+<div class="photo-container">
+    <picture class="photo-in-gallery">
+        <img class="photo-gallery" loading="lazy" src="images/nasze_konie/13417630_1576817599283033_125187163244902255_n.jpg" alt="13417630_1576817599283033_125187163244902255_n.jpg" onclick="preview(this.src)"/>
+    </picture>
+</div>
+<div class="photo-container">
+    <picture class="photo-in-gallery">
+        <img class="photo-gallery" loading="lazy" src="images/nasze_konie/13434888_1576817022616424_5724536173721622377_n.jpg" alt="13434888_1576817022616424_5724536173721622377_n.jpg" onclick="preview(this.src)"/>
+    </picture>
+</div>
+<div class="photo-container">
+    <picture class="photo-in-gallery">
+        <img class="photo-gallery" loading="lazy" src="images/nasze_konie/13435424_1576817455949714_6342076068556550289_n.jpg" alt="13435424_1576817455949714_6342076068556550289_n.jpg" onclick="preview(this.src)"/>
+    </picture>
+</div>
