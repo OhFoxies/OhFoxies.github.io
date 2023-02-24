@@ -259,13 +259,13 @@ nav{
     }
 }
 .toggle .line1{
-    transform: rotate(45deg) translateY(7px);
+    transform: rotate(45deg) translateY(3vh);
 }
 .toggle .line2{
     opacity: 0;
 }
 .toggle .line3{
-    transform: rotate(-45deg) translateX(-7px);
+    transform: rotate(-45deg) translateX(-3vh);
 }
 
 
