@@ -5,51 +5,89 @@
     <title>Klasuś - strona główna</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="menu.js"></script>
 </head>
 <body>
 <nav>
-    <div class="nav-wrapper">
-        <div class="hamburger">
-            <div class="line-hamb"></div>
-            <div class="line-hamb"></div>
-            <div class="line-hamb"></div>
+    <div class="menu" id="menu">
+        <div class="nav-element-menu">
+            <p>Konfiguracja</p>
+            <p class="hover-line"></p>
         </div>
+        <div class="nav-element-menu">
+            <p>Dodawanie bota</p>
+            <p class="hover-line"></p>
+        </div>
+        <div class="nav-element-menu">
+            <p>O klasusiu</p>
+            <p class="hover-line"></p>
+        </div>
+        <div class="nav-element-menu">
+            <p>Działanie bota</p>
+            <p class="hover-line"></p>
+        </div>
+        <div class="nav-element-menu">
+            <div class="text-img"><img src="images/discord-mark-white.png" alt="Discord" class="menu-img">Discord</div>
+            <p class="hover-line"></p>
+        </div>
+    </div>
+    <div class="nav-wrapper">
         <div class="nav-elements">
+
+            <div class="hamburger" onclick="menu()">
+                <div class="line-hamb"></div>
+                <div class="line-hamb"></div>
+                <div class="line-hamb"></div>
+            </div>
+
             <div class="nav-element">
-                Konfiguracja
+                <p>Konfiguracja</p>
+                <p class="hover-line"></p>
             </div>
             <div class="nav-element">
-                Dodawanie bota
+                <p>Dodawanie bota</p>
+                <p class="hover-line"></p>
             </div>
             <div class="nav-element">
-                O klasusiu
+               <p>O klasusiu</p>
+                <p class="hover-line"></p>
             </div>
             <div class="nav-element">
-                Działanie bota
+                <p>Działanie bota</p>
+                <p class="hover-line"></p>
             </div>
             <div class="nav-element">
-                <img src="images/discord-mark-white.png" alt="Discord">
-                Discord
+                <div class="text-img"><img src="images/discord-mark-white.png" alt="Discord" class="menu-img">Discord</div>
+                <p class="hover-line"></p>
             </div>
-            <div class="nav-element" id="more-btn">
+            <div id="more-btn">
                 <div class="more" id="more">
-                    Więcej
+                    <span>Więcej</span>
                     <i class="fa fa-caret-down"></i>
                 </div>
-                <div class="dropdown-more-menu">
+                <div class="dropdown-more-menu" id="menu-content">
                     <div class="dropdown-content">
-                        <a href="" class="dropdown-link">Działanie bota</a>
-                        <a href="" class="dropdown-link"> <img src="images/discord-mark-white.png" alt="Discord">
-                            Discord</a>
+                        <div class="dropdown-link">
+                            <p>Działanie bota</p>
+                            <p class="hover-line"></p>
+                        </div>
+                        <div class="dropdown-link">
+                            <div class="text-img"><img src="images/discord-mark-white.png" alt="Discord" class="menu-img">Discord</div>
+                            <p class="hover-line"></p>
+                        </div>
+                        <div class="dropdown-link">
+                            <p>O klasusiu</p>
+                            <p class="hover-line"></p>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
 </nav>
 <main>
-
 </main>
+<script src="menu.js"></script>
+
 </body>
 </html>
