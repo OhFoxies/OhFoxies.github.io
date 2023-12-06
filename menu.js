@@ -31,5 +31,7 @@ function dropdownMenu() {
 
 function menu() {
     let menu = document.getElementById('menu')
+    let hamb = document.getElementById('nav-icon1')
+    hamb.classList.toggle('open')
     menu.classList.toggle("open-menu")
 }
